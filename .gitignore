@@ -1,0 +1,17 @@
+# filepath: /Users/hjalmarbjorndalseter/Skole/AudioDeepfakeDetector/.gitignore
+__pycache__/
+.vscode/
+.env
+.venv
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+
+# Large / generated data
+data/*.npy
+data/*.npz
+data/*.pkl
+data/*.csv
+data/cache/
+notebooks/.ipynb_checkpoints/
