@@ -14,4 +14,7 @@ data/*.npz
 data/*.pkl
 data/*.csv
 data/cache/
+data/LA/*
+data/ASVspoof2021/*
+data/LA/
 notebooks/.ipynb_checkpoints/
