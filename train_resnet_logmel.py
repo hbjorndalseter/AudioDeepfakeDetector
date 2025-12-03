@@ -303,7 +303,8 @@ def main():
     num_pos = int(np.sum(y_train_labels))
     num_neg = len(y_train_labels) - num_pos
     # pos_weight < 1 here because positive class is majority; keeps losses balanced
-    pos_weight_value = num_neg / max(num_pos, 1)
+    # pos_weight_value = num_neg / max(num_pos, 1)
+    pos_weight_value = 1.0  # No weighting
     print(f"[TRAIN] class counts: neg={num_neg}, pos={num_pos}, pos_weight={pos_weight_value:.2f}")
 
     # ---- Datasets and DataLoaders ----
